@@ -96,6 +96,7 @@ function addNewItem(e) {
 
     if (input.value === '') {
         alert('add new item')
+        return
     }
 
     // create item
