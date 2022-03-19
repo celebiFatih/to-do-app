@@ -80,7 +80,7 @@ function createItem(text) {
 
     // create a
     const a = document.createElement('a')
-    a.classList = 'delete-item float-right'
+    a.classList = 'delete-item float-right text-danger'
     a.setAttribute('href', '#')
     a.innerHTML = '<i class="fas fa-times"></i>'
 
